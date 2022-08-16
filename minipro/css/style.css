@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: 'Jost';
+    src: url("../fonts/jost-v14-latin-regular.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url("../fonts/RubikDirt-Regular.woff2") format('woff2');
+}
+
+body{
+    font-family: Jost;
+}
+
+.container{
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.row{
+    border:1px solid black;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+}
+.logo , .social , .submit{
+    display: flex;
+    border:1px solid black;
+    width: 15%;
+}
+
+.menu{
+    display: flex;
+    border:1px solid black;
+    width: 55%;
+}
+/***********************justify_Items***********************/
+
+.space_around{
+    justify-content: space-around;
+}
+
+.item_center{
+    justify-content: center;
+}
+
+.item_end{
+    justify-content: end;
+}
+.item_center{
+    justify-content: start;
+}
+
+/***********************justify_Items***********************/
