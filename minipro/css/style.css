@@ -10,11 +10,18 @@
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
     font-family: Jost;
+    background: #E9E9E9;
 }
 
 .container{
-    width: 99%;
+    background: #F5F6F6;
+    width: 90%;
+    margin: 65px 0px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -51,8 +58,42 @@ body{
 .item_end{
     justify-content: end;
 }
-.item_center{
+.item_start{
     justify-content: start;
 }
 
 /***********************justify_Items***********************/
+
+
+
+/**********************Aboufazel css************************/
+.box_shadow{
+    box-shadow: 0px 0px 80px 15px rgba(136, 136, 136, 0.4);
+}
+.cart_box{
+    display: flex;
+    background: #FFFFFF;
+    height: 280px;
+    justify-content: center;
+    padding: 20px 0px;
+    border-radius: 25px;
+    width: 20%;
+    margin: 0px 1%;
+    justify-content: center;
+}
+
+.cart_img{
+    background: #F5F6F6;
+    border-radius: 25px;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    width: 86%;
+    height: 60%;
+}
+
+.cart_img img{
+    max-width: 45%;
+}
+/**********************Aboufazel css************************/
